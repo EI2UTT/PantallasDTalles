@@ -1,0 +1,42 @@
+body{
+padding: 0;
+margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-areas: "head head head"
+    "nav content content"
+    "nav footer   footer";
+    grid-template-columns: 10% 1fr 1fr;
+    grid-template-rows: 10% auto 10%;
+    background-color: skyblue;
+    width: 100vw;
+    height: 100vh;
+}
+.item{
+ grid-area: head;
+background-color: slateblue;
+}
+
+.main{
+    grid-area: content;
+    background-color: teal;
+}
+.footer{
+    grid-area: footer;
+    background-color: sandybrown;
+}
+.estadistica{
+  display: grid;
+  grid-template:  repeat(2,auto)/20% auto;
+  grid-template-areas: "it1 it3"
+  "it2 it3";
+  width: 100%;
+  height: 250px;
+  background-color: grey
+}
+.estadistica__item1{
+  grid-area: it1;
+  background-color: rgb(255, 74, 225);
+}
+
