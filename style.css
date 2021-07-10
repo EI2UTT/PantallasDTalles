@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: Arial;
+}
+
+.flecha
+{
+    cursor: pointer;
+    width: 50px;
+    transform: scaleX(-1);
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.carrito
+{
+    cursor: pointer;
+    width: 50px;
+    margin-left: 1185px;
+    margin-top: -37px;
+}
+
+.logo
+{
+    width: 86px;
+    margin-left: 610px;
+    margin-top: -150px;
+}
+.Seccion1
+{
+    width: auto;
+    height: 100px;
+    background: white;
+    margin-top: -593px;
+    padding: 25px 30px;
+    color: white;
+}
+
+.Seccion2
+{
+    width: auto;
+    height: 50px;
+    background: #D55656;
+    margin: auto;
+    margin-top: 0px;
+    padding: 20px 30px;
+    color: white;
+}
+
+.Seccion2 h5 
+{
+    margin: -5px;
+    text-align: center;
+    font-family: Arial;
+    font-size: large;
+}
+
+.h41
+{
+    cursor: pointer;
+    color: black;
+    margin-top: 22px;
+    margin-left: 165px;
+    font-size: large;
+}
+
+.h42
+{
+    cursor: pointer;
+    color: black;
+    margin-top: -21px;
+    margin-left: 300px;
+    font-size: large;
+}
+
+.h43
+{
+    cursor: pointer;
+    color: black;
+    margin-top: -22px;
+    margin-left: 780px;
+    font-size: large;
+}
+
+.h44
+{
+    cursor: pointer;
+    color: black;
+    margin-top: -20px;
+    margin-left: 980px;
+    font-size: large;
+}
+
+.form-login {
+    width: 350px;
+    height: 300px;
+    background: white;
+    margin: auto;
+    margin-top: 215px;
+    padding: 20px 30px;
+    border-top: 4px solid #D55656;
+    color: white;
+}
+
+.form-login h5 {
+    color: black;
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.controls {
+    width: 100%;
+    border: 1px solid #9caaaf;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.buttons 
+{
+    cursor: pointer;
+     font-style: italic;
+     font-size: large;
+     margin-top: 20px;
+     margin-left: 72px;
+     width: 50%;
+     height: 40px;
+     background: #D55656;
+     border: none;
+     color: white;
+     margin-bottom: 16px;
+}
+
+.buttons:hover
+{
+    background-color: #D55656;
+    box-shadow: 2px 2px 20px  #D55656, #fff 0 -1px 2px;
+}
