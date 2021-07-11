@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav.navbar ul.nav li {
+    font-family: Arial;
+}
+
+.kk{
+    width: 100vw;
+    height: 100vh;
+}
+
+.hola{
+    width: 100vw;
+    height: 10vh;
+}
+.carro{
+    
+    width: 40px;
+    height: 40px;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.flecha{
+    transform: scaleX(-1);
+    width: 50px;
+    height: 50px;
+}
+
+.item {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(226, 43, 171);
+    font-weight: bolder;
+    font-family: Arial;
+    align-content: center;
+    color:whitesmoke;
+    font-size:xx-large;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 10px;
+}
+
+.social{
+    width:48px;
+    position:fixed;
+    top:50px;
+    right:0;
+    top:50%;
+    height:205px;
+    margin-top:-100px;
+}
+
+.social a{
+   margin-top: 5rem;
+}
+
+.resto{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 100vw;
+    height: 70vh;
+}
+
+.cuadro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    width: 40vw;
+    height: 70vh;
+}
+
+.cuadro p{
+    font-size: x-large;
+    font-weight: bold;
+}
+.controls {
+    width: 12vw;
+    border: transparent;
+    padding: 10px;
+    background: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.in{
+    align-self: center;
+    width: 38vw;
+    height: 40vh;
+}
