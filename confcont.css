@@ -53,3 +53,13 @@ body {
     height: 50px;
     background-color: red;
 }
+
+.controls {
+    width: 50%;
+    border: 1px solid #9caaaf;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: white;
+    font-size: 15px;
+    font-weight: bold;
+}
