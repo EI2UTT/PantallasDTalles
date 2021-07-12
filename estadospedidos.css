@@ -5,10 +5,11 @@
 }
 
 .contenedor {
+    background-image: url(fondo4.png);
+    background-size: 100%;
     display: grid;
     width: 100%;
     height: 100vh;
-    background-color: green;
     grid-template-areas: "nav nav nav" "banner banner banner" "content content content" "footer footer footer";
     grid-template-rows: 20% 1fr 1fr;
 }
@@ -22,7 +23,7 @@
     justify-content: space-around;
     align-content: center;
     align-items: center;
-    background-color: grey;
+    background-color: white;
 }
 
 .flecha {
@@ -41,6 +42,7 @@
     text-align: center;
     inline-size: 100%;
     align-items: center;
+    background-color: white;
 }
 
 #title02 {
@@ -59,4 +61,115 @@
     justify-content: space-around;
     align-content: center;
     align-items: center;
+    color: white;
+}
+
+.base {
+    background-image: url(fondo4.png);
+    width: 100vw;
+    height: auto;
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor02 {
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-areas: "esp esp esp" "content content content" "footer footer footer";
+    grid-template-rows: 20% 60% 20%;
+    inline-size: 100vw;
+    height: 30vh;
+    width: 75vw;
+    background-color: cadetblue;
+}
+
+.img-1 {
+    grid-area: content;
+    margin-left: 4%;
+    width: 30%;
+    background-color: white;
+}
+
+.a {
+    grid-area: nav;
+    height: auto;
+    width: auto;
+}
+
+.M2 {
+    grid-area: content;
+    justify-self: center;
+    width: auto;
+    height: auto;
+    font-size: auto;
+}
+
+.M3 {
+    grid-area: content;
+    padding-top: 5%;
+    justify-self: center;
+    font-size: auto;
+    width: auto;
+    height: auto;
+}
+
+.M4 {
+    grid-area: content;
+    justify-self: center;
+    padding-top: 10%;
+    width: auto;
+    height: auto;
+    font-size: auto;
+}
+
+.cross {
+    grid-area: footer;
+    padding-left: 20%;
+    height: 30px;
+    width: 30px;
+}
+
+.acept {
+    grid-area: footer;
+    padding-left: 10%;
+    height: 30px;
+    width: 30px;
+}
+
+.M21 {
+    grid-area: content;
+    justify-self: right;
+    padding-right: 5%;
+    width: auto;
+    height: auto;
+    font-size: auto;
+}
+
+.M31 {
+    grid-area: content;
+    padding-top: 5%;
+    padding-right: 5%;
+    justify-self: right;
+    font-size: auto;
+    width: auto;
+    height: auto;
+}
+
+.M41 {
+    grid-area: content;
+    justify-self: right;
+    padding-top: 10%;
+    padding-right: 5%;
+    width: auto;
+    height: auto;
+    font-size: auto;
+}
+
+.buttons {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    justify-self: center;
 }

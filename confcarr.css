@@ -64,7 +64,36 @@ body {
 
 .M4 {
     grid-area: content;
+    justify-self: center;
+    padding-top: 10%;
+    width: auto;
+    height: auto;
+    font-size: auto;
+}
+
+.M21 {
+    grid-area: content;
     justify-self: right;
+    padding-right: 5%;
+    width: auto;
+    height: auto;
+    font-size: auto;
+}
+
+.M31 {
+    grid-area: content;
+    padding-top: 5%;
+    padding-right: 5%;
+    justify-self: right;
+    font-size: auto;
+    width: auto;
+    height: auto;
+}
+
+.M41 {
+    grid-area: content;
+    justify-self: right;
+    padding-top: 10%;
     padding-right: 5%;
     width: auto;
     height: auto;
