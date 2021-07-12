@@ -10,6 +10,7 @@ body{
 
 nav.navbar ul.nav li {
     font-family: Arial;
+    padding: 0.625rem, 1.25rem;
 }
 
 .fondo{
@@ -27,17 +28,15 @@ nav.navbar ul.nav li {
     justify-self: center;
     width: 100vw;
     height: 70vh;
-    background-image: url(logo.png);
+    background-color: beige;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-
 @media only screen and (max-width: 799px) {
     .resto{
-    background-image: url(logo.png);
-    opacity: 0.50;
+    background-image: url(logo.png)
     }
     }
 
@@ -45,59 +44,48 @@ nav.navbar ul.nav li {
     width: 40vw;
     align-self: flex-end;
 }
-.datos{
+.botones{
     display: flex;
     align-self: center;
     width: 40vw;
     height: 70vh;
     background-color: transparent;
 }
+
 .carro{
     
     width: 40px;
-    height: 40px;
+
 }
 
 .logo{
     width: 60px;
-    height: 60px;
 }
 
 .flecha{
-    transform: scaleX(-1);
     width: 50px;
     height: 50px;
 }
-
-.buttons 
-{
-    align-self: flex-start;
-    cursor: pointer;
-     font-style: italic;
-     font-size: large;
-     margin-top: 20px;
-     margin-left: 72px;
-     width: 15vw;
-     height: 5vh;
-     background: #D55656;
-     border: none;
-     color: white;
-     margin-bottom: 16px;
-   
+.card img{
+     height:65vh; 
+     opacity: 0.5;
+     
+}
+.col-auto{
+    padding-top: 90px;
+    
 }
 
-.buttons:hover
-{
-    background-color: #D55656;
-    box-shadow: 2px 2px 20px  #D55656, #fff 0 -1px 2px;
+.invitaciones{
+    background-image: url(invitacion.png);
 }
-
 .item {
     width: 100vw;
     height: 5vh;
-    background-color: blueviolet;
+    background-color: rgb(226, 43, 43);
     font-weight: bolder;
     font-family: Arial;
+    font-style: italic;
     align-content: center;
     text-align: center;
     color: white;
@@ -119,3 +107,4 @@ nav.navbar ul.nav li {
 .social a{
    margin-top: 5rem;
 }
+
