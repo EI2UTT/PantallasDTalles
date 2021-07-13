@@ -82,7 +82,7 @@
     inline-size: 100vw;
     height: 30vh;
     width: 75vw;
-    background-color: rgb(153, 255, 70);
+    background-color: cadetblue;
     border-radius: 10px;
     font-size: 18px;
 }
@@ -129,20 +129,10 @@
 
 .cross {
     grid-area: footer;
-    margin-left: 13%;
-    height: 30px;
-    width: 90px;
-    background-color: red;
-    border: black;
-    border-radius: 10px;
-}
-
-.acept {
-    grid-area: footer;
-    margin-left: 10%;
+    margin-left: 20%;
     height: 30px;
     width: 30px;
-    background-color: rgb(31, 223, 31);
+    background-color: red;
     border: black;
     border-radius: 10px;
 }
