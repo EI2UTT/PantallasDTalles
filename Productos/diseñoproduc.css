@@ -95,13 +95,14 @@ nav.navbar ul.nav li {
 
 .social{
     /*las imágenes usadas tienen width de 48px*/
-    width:48px;
+      width:48px;
     position:fixed;
     top:50px;
     right:0;
     top:50%;
-    height:205px;
+    height:50px;
     margin-top:-100px;
+    background-color: rgb(255, 255, 255);
 }
 
 #bg1 {

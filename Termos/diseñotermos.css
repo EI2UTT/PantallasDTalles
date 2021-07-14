@@ -1,4 +1,4 @@
-              *{
+                                                                                                                        *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -94,13 +94,13 @@ nav.navbar ul.nav li {
 .item2 {
     width: 100vw;
     height: 5vh;
-    background-color: rgb(29, 238, 158);
+    background-color: rgb(128, 43, 226);
     font-weight: bolder;
     font-family: Arial;
     font-style: italic;
     align-content: center;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 legend{
    align-content: center;
@@ -110,27 +110,28 @@ legend{
 }
 #tipoevento{
     width: fit-content;
-    background-color: rgb(206, 228, 253);
+    
 }
 .form-label{
     font-weight: bolder;
    
 }
 #fecha{
-    background-color: rgb(206, 228, 253);
+    text-align: center;
+    width: fit-content;
 }
 #cantinv{
     width: fit-content;
-    background-color: rgb(206, 228, 253);
+    
 }
 #lugarevento{
     width: fit-content;
-    background-color: rgb(206, 228, 253);
+   
 }
 #nombrevento
 {
     width: fit-content;
-     background-color: rgb(206, 228, 253);
+    
 }
 #invitac{
     margin-top: 25px;
@@ -143,4 +144,8 @@ legend{
 }
 .fondo{
     background-image: url(logo.png);
+}
+.mb-3{
+    display: flex;
+    justify-content: center;
 }

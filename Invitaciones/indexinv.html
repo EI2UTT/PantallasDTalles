@@ -48,8 +48,9 @@
             <section class="item2">Invitaciones</section>
         </div>
 <form>
-<div class="mb-3">
-    <label for="Tipoevento" class="form-label">Tipo de evento</label>
+    <div class="container row align-items-start">
+<div class="mb-3 row">
+    <label for="Tipoevento" class=" mb-3 form-label">Tipo de evento</label> <br>
     <select class="form-select" id="tipoevento">
         <option selected>Selecciona uno</option>
         <option value="1">Cumpleaños</option>
@@ -61,54 +62,66 @@
         <option value="7">Reunion formal</option>
     </select>
 </div>
-<div class="mb-3">
-    <label for="Cantidadinvita" class="form-label">Cantidad de invitaciones</label>
-   <textarea class="form-control" id="cantinv" cols="4" rows="1"></textarea>
 
-<div class="mb-3">
-    <label for="Fechaevento" class="form-label">Fecha del evento</label> <br>
+<div>
+<div class="mb-3 row">
+    <label for="Fechaevento" class=" mb-3 form-label">Fecha del evento   </label>
 <input type="date" min="datetime-local" id="fecha">
 </div>
-<div class="mb-3">
-<label for="Lugarevento" class="form-label">Lugar del evento</label> <br>
-<textarea class="form-control" id="lugarevento" cols="50" rows="5"></textarea>
+<div class="mb-3 row">
+<label for="Lugarevento" class=" mb-3 form-label">Lugar del evento</label> 
+<input type="text" class="form-control" id="lugarevento" cols="50" rows="5">
 </div>
 <div>
-    <div class="mb-3">
-        <label for="Nombrevento" class="form-label">Nombre del evento</label> 
-        <textarea class="form-control" data-toggle="popover" data-trigger="focus"  data-content="Aquí también puede ir el nombre del festejad@" id="nombrevento" cols="50" rows="2"></textarea>
+    <div class="mb-3 row">
+        <label for="Nombrevento" class=" mb-3 form-label">Nombre del evento  </label> 
+        <input type="text" class=" mb-3 form-control" data-toggle="popover" data-trigger="focus"  data-content="Aquí también puede ir el nombre del festejad@" id="nombrevento" cols="50" rows="2">
+</div>
 </div>
 <div class="container row align-items-start">
-    <label for="Frase" class="form-label">Frase conmemorativa</label>
-    <div class="form-check col">
+    <label for="Frase" class="mb-3 form-label">Frase conmemorativa</label>
+    <div class=" mb-3 form-check col">
         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
         <label class="form-check-label" for="flexRadioDefault1">
             Sí
         </label>
     </div>
-    <div class="form-check col">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-        <label class="form-check-label" for="flexRadioDefault2">
+    <div class=" mb-3 form-check col">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
             No
         </label>
+        </div>
+        <div class=" mb-3 row" >
+            <textarea class=" form-control " id="nombrevento" cols="50" rows="3"></textarea>
+        </div>
     </div>
-    <div class="row">
-    <textarea class="form-control col" id="nombrevento" cols="50" rows="3"></textarea>
-    </div>
+ </div>
 </div>
-<div class="container row align-items-start  " id="invitac" > 
-<div class="card" style="width: 18rem;">
-    <img src="Colorful-Balloons-Confetti.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">Tarjeta de cumpleaños 1</h5>
-        <a href="#" class="btn btn-primary">Añadir a carrito</a>
-    </div>
+
+
+
+
+<div class="card-group" id="invitac">
+    <div class="card" style="width: 18rem;">
+        <img src="Colorful-Balloons-Confetti.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Invitacion cumpleaños sencilla</h5>
+            <label for="Cantidadinvita" class="form-label">Cantidad</label>
+            <input type="number" class="form-control" id="cantinv" cols="4" rows="1">
+            <br>
+            <a href="#" class="btn btn-primary">Añadir a carrito</a>
+        </div>
 
 </div>
-<div class="card" style="width: 18rem;">
+<div class="card">
     <img src="boda1.jpeg" class="card-img-top">
     <div class="card-body">
-        <h5 class="card-title">Invitación para boda</h5>
+        <h5 class="card-title">Invitacion de boda</h5>
+        <label for="Cantidadinvita" class="form-label">Cantidad</label>
+        <input type="number" class="form-control" id="cantinv" cols="4" rows="1">
+        <br>
+
         <a href="#" class="btn btn-primary">Añadir a carrito</a>
     </div>
     </div>

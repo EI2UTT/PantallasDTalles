@@ -110,27 +110,28 @@ legend{
 }
 #tipoevento{
     width: fit-content;
-    background-color: rgb(206, 228, 253);
+    
 }
 .form-label{
     font-weight: bolder;
    
 }
 #fecha{
-    background-color: rgb(206, 228, 253);
+    text-align: center;
+    width: fit-content;
 }
 #cantinv{
     width: fit-content;
-    background-color: rgb(206, 228, 253);
+    
 }
 #lugarevento{
     width: fit-content;
-    background-color: rgb(206, 228, 253);
+   
 }
 #nombrevento
 {
     width: fit-content;
-     background-color: rgb(206, 228, 253);
+    
 }
 #invitac{
     margin-top: 25px;
@@ -143,4 +144,8 @@ legend{
 }
 .fondo{
     background-image: url(logo.png);
+}
+.mb-3{
+    display: flex;
+    justify-content: center;
 }
